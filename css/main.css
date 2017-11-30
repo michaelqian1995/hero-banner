@@ -1,0 +1,55 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.banner-content {
+  padding: 0 1.5em;
+  position: absolute;
+  max-width: 50em;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1em;
+}
+
+h2 {
+
+  margin: 0;
+  font-size: 4rem;
+  color: white;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+p {
+  margin-top: .5em;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.act {
+  overflow: hidden;
+}
